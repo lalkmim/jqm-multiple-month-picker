@@ -23,6 +23,8 @@
 			this.element.find('input').each(function() {
 				if(that._values.indexOf(',' + $(this).val() + ',') >= 0) {
 					$(this).prop('checked', true).checkboxradio('refresh');
+				} else {
+					$(this).prop('checked', false).checkboxradio('refresh');
 				}
 			});
 		},
