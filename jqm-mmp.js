@@ -74,6 +74,12 @@
 						that._values = that._values.replace(',' + value + ',', ',');
 					}
 				}
+				if(that._values == ',') {
+					that.options.value = [];
+				} else {
+					that.options.value = that._values.substring(1, that._values.length - 1).split(',');
+					that.options.value.sort();
+				}
 			});
 			
 			this._check();
