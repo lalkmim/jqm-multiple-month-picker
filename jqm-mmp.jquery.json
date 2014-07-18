@@ -1,0 +1,25 @@
+{
+    "name": "jqm-mmp",
+    "title": "jQuery Mobile - Multiple Month Picker",
+    "description": "jQuery Mobile plugin for multiple month selection",
+    "keywords": [
+        "multiple",
+        "month",
+		"picker"
+    ],
+    "version": "1.0",
+    "author": {
+        "name": "Leonardo Alkmim",
+        "url": "https://github.com/lalkmim/"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">=1.11",
+		"jquerymobile": ">=1.4.2"
+    }
+}
