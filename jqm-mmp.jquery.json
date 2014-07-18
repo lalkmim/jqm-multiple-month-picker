@@ -1,5 +1,5 @@
 {
-    "name": "jqm-mmp",
+    "name": "jqm-multiple-month-picker",
     "title": "jQuery Mobile - Multiple Month Picker",
     "description": "jQuery Mobile plugin for multiple month selection",
     "keywords": [
@@ -7,7 +7,7 @@
         "month",
 		"picker"
     ],
-    "version": "1.0",
+    "version": "1.0.0",
     "author": {
         "name": "Leonardo Alkmim",
         "url": "https://github.com/lalkmim/"
